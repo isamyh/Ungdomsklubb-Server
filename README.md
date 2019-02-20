@@ -24,13 +24,5 @@ Dokumentasjon av ungdomsklubbserver
 <h3 id="typedeling">Type deling</h3>
 
 <h3 id="gpo">GPO (Group Policy)</h3>
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+```
 ```
