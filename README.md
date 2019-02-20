@@ -24,7 +24,9 @@ Dokumentasjon av ungdomsklubbserver
 <h3 id="typedeling">Type deling</h3>
 
 <h3 id="gpo">GPO (Group Policy)</h3>
-```shell
-$ brew update
-$ brew install fvcproductions
-```
+<div class="highlight highlight-source-shell">
+	<pre>
+		$ brew update
+		$ brew install fvcproductions
+	</pre>
+</div>
