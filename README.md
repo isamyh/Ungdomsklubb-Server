@@ -9,9 +9,10 @@ Dokumentasjon av ungdomsklubbserver
     <li><a href="#gpo">GPO (Group Policy)</a></li>
 </ul>
 <h3 id="serverinfo">Server informasjon</h3>
-<b>Dynamisk Server IP:</b> ```
-Give an example
-```10.0.0.1
+<b>Dynamisk Server IP:</b> 
+```
+10.0.0.1
+```
 <b>Servernavn:</b> UngdomsklubbServer
 
 <h3 id="brukere">Brukere</h3>
