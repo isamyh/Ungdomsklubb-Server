@@ -2,6 +2,6 @@
 Dokumentasjon av ungdomsklubbserver
 
 <h3>Server informasjon</h3>
-Dynamisk Server IP: 10.0.0.1
+<bold>Dynamisk Server IP:</bold> 10.0.0.1
 
 Servernavn: 
