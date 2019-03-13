@@ -1,0 +1,25 @@
+= Ungdomsklubb-Server 
+Dokumentasjon av ungdomsklubbserver
+toc::[] 
+
+[source,html]
+----
+<html>
+<p>Test</p>
+</html>
+----
+
+== Server informasjon 
+Statisk Server IP: 10.0.0.1
+
+Servernavn: UngdomsklubbServer
+
+=== Brukere 
+
+=== Grupper
+
+=== Delte mapper
+
+=== Type deling
+
+=== GPO (Group Policy)
