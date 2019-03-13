@@ -1,13 +1,6 @@
 = Ungdomsklubb-Server 
 Dokumentasjon av ungdomsklubbserver
 
-[source,html]
-----
-<html>
-<p>Test</p>
-</html>
-----
-
 == Server informasjon 
 Statisk Server IP: 10.0.0.1
 
