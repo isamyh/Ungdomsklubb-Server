@@ -9,6 +9,7 @@ Servernavn: UngdomsklubbServer
 === Brukere 
 
 === Grupper
+Administrator
 
 === Delte mapper
 
