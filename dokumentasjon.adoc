@@ -1,6 +1,8 @@
 = Ungdomsklubb-Server 
 Dokumentasjon av ungdomsklubbserver
 
+:toc: macro 
+
 toc::[]
 
 [source,html]
