@@ -1,7 +1,6 @@
 echo "Updating ASCII documents"
 echo "Pulling latest git"
 git pull git@github.com:isamyh/Ungdomsklubb-server.git
-Kake1234
 echo "Updating dokumentasjon.adoc"
 asciidoctor -a toc dokumentasjon.adoc
 asciidoctor -r asciidoctor-pdf -b pdf -a toc dokumentasjon.adoc
@@ -13,5 +12,4 @@ git add *
 git commit -m "Documentation update"
 echo "Pushing changes"
 git push
-Kake1234
 echo "Update done."
