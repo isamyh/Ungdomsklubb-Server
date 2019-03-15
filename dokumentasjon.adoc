@@ -2,8 +2,7 @@
 Dokumentasjon av ungdomsklubbserver
 
 == Server informasjon 
-Statisk Server IP: 10.0.0.1
-
+Static Server IPv4: 10.0.0.1
 Servernavn: UngdomsklubbServer
 
 === Brukere 
