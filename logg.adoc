@@ -1,7 +1,7 @@
 = Logg
 Hva som er gjort på Ungdomsklubb Server
 
-== Opprettelse av Windows Server 2019
+=== Opprettelse av Windows Server 2019
 `10.02.2019`
 
 * [*] *Ble planen fulgt?*
@@ -18,8 +18,8 @@ Testing er gjennomført, serveren starter opp som normalt.
 +
 Husket å drikke vann, samhandlet med medelever. 
 
-== Skiftelse av IPv4 adresse
-11.02.2019
+=== Skiftelse av IPv4 adresse
+`11.02.2019`
 
 * [*] *Ble planen fulgt?*
 
