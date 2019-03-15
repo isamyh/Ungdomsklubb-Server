@@ -2,7 +2,7 @@
 Hva som er gjort på Ungdomsklubb Server
 
 == Opprettelse av Windows Server 2019
-10.02.2019
+`10.02.2019`
 
 * [*] *Ble planen fulgt?*
 
