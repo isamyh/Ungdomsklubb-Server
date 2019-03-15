@@ -1,4 +1,5 @@
-= Ungdomsklubb-Server 
+= Logg
+
 Logg av hva som er gjort på Ungdomsklubb Server
 
 
