@@ -13,6 +13,18 @@ Hva som er gjort på Ungdomsklubb Server
 
 *** [ ] Hva forandret du på? 
 
-* [*] Kontroll 
+* [*] Kontrollmetoder samt funksjonsprøving, eventuelt feilretting
 
-checked
+** [*] Har du testet at alt virker - og hvordan testet du?
+
+** [ ] Om ikke noe virket
+
+*** [ ] Hva var feilen?
+
+*** [ ] Hvor fant du løsningen?
+
+* [*] Gjennomførte hms - tiltak underveis
+
+** [*] Bevegelse avveksling i arbeidsoppgaver, samarbeid med andre. Husk å drikke
+
+
