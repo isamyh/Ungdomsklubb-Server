@@ -1,18 +1,4 @@
 = Ungdomsklubb-Server 
-Dokumentasjon av ungdomsklubbserver
+Logg av hva som er gjort på Ungdomsklubb Server
 
-== Server informasjon 
-Static Server IPv4: 10.0.0.1
 
-Servernavn: UngdomsklubbServer
-
-=== Brukere 
-
-=== Grupper
-Administrator
-
-=== Delte mapper
-
-=== Type deling
-
-=== GPO (Group Policy)
