@@ -1,0 +1,18 @@
+= Logg
+
+Hva som er gjort på Ungdomsklubb Server
+
+
+== Mal
+
+* [*] Ble planen fulgt? 
+
+** [ ] Om du ikke fulgte planen? 
+
+*** [ ] Hvorfor ikke? 
+
+*** [ ] Hva forandret du på? 
+
+* [*] Kontroll 
+
+checked
