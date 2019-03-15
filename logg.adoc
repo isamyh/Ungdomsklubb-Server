@@ -1,8 +1,24 @@
 = Logg
 Hva som er gjort på Ungdomsklubb Server
 
+== Opprettelse av Windows Server 2019
+10.02.2019
+
+* [*] Ble planen fulgt? 
+
+* [*] Kontrollmetoder samt funksjonsprøving, eventuelt feilretting
+Alle funksjoner hittil fungerer som det skal.
+
+** [*] Har du testet at alt virker - og hvordan testet du?
+Testing er gjennomført, serveren starter opp som normalt. 
+
+* [*] Gjennomførte HMS - tiltak underveis
+Husket å drikke vann, samhandlet med medelever. 
+
+
 
 == Mal
+Dato
 
 * [*] Ble planen fulgt? 
 
@@ -22,7 +38,7 @@ Hva som er gjort på Ungdomsklubb Server
 
 *** [ ] Hvor fant du løsningen?
 
-* [*] Gjennomførte hms - tiltak underveis
+* [*] Gjennomførte HMS - tiltak underveis
 
 ** [*] Bevegelse avveksling i arbeidsoppgaver, samarbeid med andre. Husk å drikke
 
