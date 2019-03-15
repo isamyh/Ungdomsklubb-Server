@@ -5,12 +5,14 @@ Hva som er gjort på Ungdomsklubb Server
 
 == Mal
 
-* Ble planen fulgt? * [*] 
+* [*] Ble planen fulgt? 
 
-** Om du ikke fulgte planen? [ ]
+** [ ] Om du ikke fulgte planen? 
 
-*** Hvorfor ikke? [ ]
+*** [ ] Hvorfor ikke? 
 
-*** Hva forandret du på? [ ]
+*** [ ] Hva forandret du på? 
 
-* Kontroll [*]
+* [*] Kontroll 
+
+checked
