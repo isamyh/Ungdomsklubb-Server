@@ -40,13 +40,13 @@ Dokumentasjon av ungdomsklubbserver
 
 
 
-=== Brukere 
+== Brukere 
 
-=== Grupper
+== Grupper
 Administrator
 
-=== Delte mapper
+== Delte mapper
 
-=== Type deling
+== Type deling
 
-=== GPO (Group Policy)
+== GPO (Group Policy)
