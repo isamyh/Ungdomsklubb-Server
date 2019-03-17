@@ -40,7 +40,26 @@ Testing er gjennomført, serveren starter opp som normalt.
 * [*] *Gjennomførte HMS - tiltak underveis*
 +
 Husket å drikke vann, samhandlet med medelever. 
+'''
 
+=== Skiftelse av Server navn / PC navn
+`12.2.2019`
+
+* Navn ble skiftet til `UngdomsklubbServer`
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+Serveren måtte ha restart for at navnet skulle tre inn. 
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+Server navnet vises i Server Manager.
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
 '''
 
 == Mal
