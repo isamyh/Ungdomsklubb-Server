@@ -70,8 +70,7 @@ Dokumentasjon av ungdomsklubbserver
 
 `C:\Windows\NTDS`
 
-====== SYSVOL folder
-
+====== SYSVOL folder +
 `C:\Windows\SYSVOL`
 
 == Brukere 
