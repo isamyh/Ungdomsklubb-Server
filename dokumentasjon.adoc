@@ -2,77 +2,77 @@
 Dokumentasjon av ungdomsklubbserver
 
 == Server informasjon 
-==== Static Server IPv4
+  ==== Static Server IPv4
 
-`10.0.0.1`
+  `10.0.0.1`
 
-==== Subnet mask 
+  ==== Subnet mask 
 
-`255.0.0.0`
+  `255.0.0.0`
 
-==== Default gateway
+  ==== Default gateway
 
-`10.0.0.1`
+  `10.0.0.1`
 
-==== Servernavn 
+  ==== Servernavn 
 
-`UngdomsklubbServer`
+  `UngdomsklubbServer`
 
-==== Processors 
+  ==== Processors 
 
-`Intel Core i7-4800MQ CPU @ 2.70GHz`
+  `Intel Core i7-4800MQ CPU @ 2.70GHz`
 
-==== Installed memory (RAM)
+  ==== Installed memory (RAM)
 
-`2048 MB Dynamic`
+  `2048 MB Dynamic`
 
-==== Nr of allocated CPU cores 
+  ==== Nr of allocated CPU cores 
 
-`4`
+  `4`
 
-==== Operating system version
+  ==== Operating system version
 
-`Microsoft Windows Server 2019 Standard Evaluation`
+  `Microsoft Windows Server 2019 Standard Evaluation`
 
-==== Hardware information 
+  ==== Hardware information 
 
-`Microsoft Corporation Virtual Machine`
+  `Microsoft Corporation Virtual Machine`
 
-==== Server Roles installed
+  ==== Server Roles installed
 
-* `Active Directory Domain Services` +
-* `DNS Server` +
-* `File and Storage Services -> File and iSCSI Services -> File Server` +
-* `File and Storage Services -> Storage Services` +
-* `Web Server (IIS)` +
+  * `Active Directory Domain Services` +
+  * `DNS Server` +
+  * `File and Storage Services -> File and iSCSI Services -> File Server` +
+  * `File and Storage Services -> Storage Services` +
+  * `Web Server (IIS)` +
 
-==== Active Directory Configurations
+  ==== Active Directory Configurations
 
-===== Root domain name
+    ===== Root domain name
 
-`fyllingsdalenungdomsklubb.no`
+    `fyllingsdalenungdomsklubb.no`
 
-===== Forest functional level
+    ===== Forest functional level
 
-`Windows Server 2016`
+    `Windows Server 2016`
 
-===== NetBIOS domain name
+    ===== NetBIOS domain name
 
-`FYLLINGSDALENUN`
+    `FYLLINGSDALENUN`
 
-===== Paths
+    ===== Paths
 
-====== Database folder
+    ====== Database folder
 
-`C:\Windows\NTDS`
+    `C:\Windows\NTDS`
 
-====== Log files folder
+    ====== Log files folder
 
-`C:\Windows\NTDS`
+    `C:\Windows\NTDS`
 
-====== SYSVOL folder
+    ====== SYSVOL folder
 
-`C:\Windows\SYSVOL`
+    `C:\Windows\SYSVOL`
 
 == Brukere 
 
