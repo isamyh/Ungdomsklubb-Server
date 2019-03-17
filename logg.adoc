@@ -120,6 +120,32 @@ Husket å drikke vann, samhandlet med medelever.
 
 '''
 
+=== Oprettelse av første nye bruker i AD
+`12.02.2019`
+
+Firstname: `Isak`
+Last name: `Myhrvold`
+Initials: `Mr`
+Full name: `Isak Mr. Myhrvold`
+User logon name: `isamyh@fyllingsdalenungdomsklubb.no`
+User logon name (pre- Windows 2000): `FYLLINGSDALENUN\isamyh`
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
 == Mal
 Dato
 
