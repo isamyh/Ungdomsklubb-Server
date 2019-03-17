@@ -2,6 +2,7 @@
 Hva som er gjort på Ungdomsklubb Server
 
 Her finner du en systematisk oversikt over hva som er gjort på Ungdomsklubb Servere'n, med dato nedover. 
+Relevant informasjon, som kan være nyttig for andre å se. For å løse uventede problemer raskere og mer effektivt. 
 
 '''
 
