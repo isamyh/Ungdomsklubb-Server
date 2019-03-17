@@ -3,7 +3,7 @@ Dokumentasjon av ungdomsklubbserver
 
 == Server informasjon 
 Static Server IPv4: `10.0.0.1`
-+
+
 Subnet mask: `255.0.0.0`
 
 Servernavn: UngdomsklubbServer
