@@ -1,6 +1,8 @@
 = Logg
 Hva som er gjort på Ungdomsklubb Server
 
+Her finner du en systematisk oversikt over hva som er gjort på Ungdomsklubb Servere'n, med dato nedover. 
+
 '''
 
 === Opprettelse av Windows Server 2019
