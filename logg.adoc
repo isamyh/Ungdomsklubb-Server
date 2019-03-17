@@ -40,6 +40,7 @@ Testing er gjennomført, serveren starter opp som normalt.
 * [*] *Gjennomførte HMS - tiltak underveis*
 +
 Husket å drikke vann, samhandlet med medelever. 
+
 '''
 
 === Skiftelse av Server navn / PC navn
@@ -60,6 +61,7 @@ Server navnet vises i Server Manager.
 * [*] *Gjennomførte HMS - tiltak underveis*
 +
 Husket å drikke vann, samhandlet med medelever. 
+
 '''
 
 == Mal
