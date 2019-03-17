@@ -46,6 +46,38 @@ Dokumentasjon av ungdomsklubbserver
 * `File and Storage Services -> Storage Services` +
 * `Web Server (IIS)` +
 
+====== Active Directory Configurations
+
+======= Root domain name
+
+`fyllingsdalenungdomsklubb.no`
+
+======= Forest functional level
+
+`Windows Server 2016`
+
+======= NetBIOS domain name
+
+`FYLLINGSDALENUN`
+
+======= Paths
+
+======== Database folder
+
+`C:\Windows\NTDS`
+
+======== Log files folder
+
+`C:\Windows\NTDS`
+
+======== SYSVOL folder
+
+`C:\Windows\SYSVOL`
+
+======= 
+
+
+
 == Brukere 
 
 == Grupper
