@@ -74,10 +74,6 @@ Dokumentasjon av ungdomsklubbserver
 
 `C:\Windows\SYSVOL`
 
-===== 
-
-
-
 == Brukere 
 
 == Grupper
