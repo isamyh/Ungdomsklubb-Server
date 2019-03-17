@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.8">
 <meta name="author" content="Hva som er gjort på Ungdomsklubb Server">
-<title>Logg</title>
+<title>Logg / Tidslinje</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
@@ -433,17 +433,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<h1>Logg</h1>
+<h1>Logg / Tidslinje</h1>
 <div class="details">
 <span id="author" class="author">Hva som er gjort på Ungdomsklubb Server</span><br>
 </div>
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel2">
-<li><a href="#_opprettelse_av_windows_server_2019">Opprettelse av Windows Server 2019</a></li>
+<li><a href="#_opprettelse_av_windows_server_2019_hyper_v">Opprettelse av Windows Server 2019 (HYPER-V)</a></li>
 <li><a href="#_skiftelse_av_ipv4_adresse">Skiftelse av IPv4 adresse</a></li>
 <li><a href="#_skiftelse_av_server_navn_pc_navn">Skiftelse av Server navn / PC navn</a></li>
 <li><a href="#_installasjon_av_server_roller">Installasjon av Server Roller</a></li>
+<li><a href="#_konfigurasjon_av_active_directory_domain_services">Konfigurasjon av Active Directory Domain Services</a></li>
+<li><a href="#_oprettelse_av_første_nye_bruker_i_ad">Oprettelse av første nye bruker i AD</a></li>
+<li><a href="#_opprettelse_av_windows_10_dev_environment_hyper_v">Opprettelse av Windows 10 DEV environment (HYPER-V)</a></li>
 <li><a href="#_mal">Mal</a></li>
 </ul>
 </div>
@@ -451,11 +454,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
+<div class="paragraph">
+<p>Her finner du en systematisk oversikt over hva som er gjort på Ungdomsklubb Servere&#8217;n, med dato nedover.
+Relevant informasjon, som kan være nyttig for andre å se. For å løse uventede problemer raskere og mer effektivt.</p>
+</div>
 <hr>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_opprettelse_av_windows_server_2019">Opprettelse av Windows Server 2019</h3>
+<h3 id="_opprettelse_av_windows_server_2019_hyper_v">Opprettelse av Windows Server 2019 (HYPER-V)</h3>
 <div class="paragraph">
 <p><code>10.02.2019</code></p>
 </div>
@@ -611,6 +618,116 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <hr>
 </div>
+<div class="sect2">
+<h3 id="_konfigurasjon_av_active_directory_domain_services">Konfigurasjon av Active Directory Domain Services</h3>
+<div class="paragraph">
+<p><code>12.02.2019</code></p>
+</div>
+<div class="paragraph">
+<p>Root domain name <code>fyllingsdalenungdomsklubb.no</code></p>
+</div>
+<div class="paragraph">
+<p>Forest functional level <code>Windows Server 2016</code></p>
+</div>
+<div class="paragraph">
+<p>NetBIOS domain name <code>FYLLINGSDALENUN</code></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Ble planen fulgt?</strong></p>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="paragraph">
+<p>Serveren måtte ha restart for at det skulle tre inn</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_oprettelse_av_første_nye_bruker_i_ad">Oprettelse av første nye bruker i AD</h3>
+<div class="paragraph">
+<p><code>12.02.2019</code></p>
+</div>
+<div class="paragraph">
+<p>Firstname: <code>Isak</code><br>
+Last name: <code>Myhrvold</code><br>
+Initials: <code>Mr</code><br>
+Full name: <code>Isak Mr. Myhrvold</code><br>
+User logon name: <code>isamyh@fyllingsdalenungdomsklubb.no</code><br>
+User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\isamyh</code><br></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Ble planen fulgt?</strong></p>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_opprettelse_av_windows_10_dev_environment_hyper_v">Opprettelse av Windows 10 DEV environment (HYPER-V)</h3>
+<div class="paragraph">
+<p><code>12.02.2019</code></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Ble planen fulgt?</strong></p>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
 <div class="sect1">
 <h2 id="_mal">Mal</h2>
 <div class="sectionbody">
@@ -679,7 +796,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-03-17 16:03:49 +0100
+Last updated 2019-03-17 16:32:10 +0100
 </div>
 </div>
 </body>
