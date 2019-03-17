@@ -441,7 +441,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#_server_informasjon">Server informasjon</a>
-<ul class="sectlevel5">
+<ul class="sectlevel3">
 <li><a href="#_static_server_ipv4">Static Server IPv4</a></li>
 <li><a href="#_subnet_mask">Subnet mask</a></li>
 <li><a href="#_default_gateway">Default gateway</a></li>
@@ -451,6 +451,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_nr_of_allocated_cpu_cores">Nr of allocated CPU cores</a></li>
 <li><a href="#_operating_system_version">Operating system version</a></li>
 <li><a href="#_hardware_information">Hardware information</a></li>
+<li><a href="#_server_roles_installed">Server Roles installed</a></li>
+<li><a href="#_active_directory_configurations">Active Directory Configurations</a></li>
 </ul>
 </li>
 <li><a href="#_brukere">Brukere</a></li>
@@ -465,58 +467,122 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_server_informasjon">Server informasjon</h2>
 <div class="sectionbody">
-<div class="sect5">
-<h6 id="_static_server_ipv4">Static Server IPv4</h6>
+<div class="sect3">
+<h4 id="_static_server_ipv4">Static Server IPv4</h4>
 <div class="paragraph">
 <p><code>10.0.0.1</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_subnet_mask">Subnet mask</h6>
+<div class="sect3">
+<h4 id="_subnet_mask">Subnet mask</h4>
 <div class="paragraph">
 <p><code>255.0.0.0</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_default_gateway">Default gateway</h6>
+<div class="sect3">
+<h4 id="_default_gateway">Default gateway</h4>
 <div class="paragraph">
 <p><code>10.0.0.1</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_servernavn">Servernavn</h6>
+<div class="sect3">
+<h4 id="_servernavn">Servernavn</h4>
 <div class="paragraph">
 <p><code>UngdomsklubbServer</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_processors">Processors</h6>
+<div class="sect3">
+<h4 id="_processors">Processors</h4>
 <div class="paragraph">
 <p><code>Intel Core i7-4800MQ CPU @ 2.70GHz</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_installed_memory_ram">Installed memory (RAM)</h6>
+<div class="sect3">
+<h4 id="_installed_memory_ram">Installed memory (RAM)</h4>
 <div class="paragraph">
 <p><code>2048 MB Dynamic</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_nr_of_allocated_cpu_cores">Nr of allocated CPU cores</h6>
+<div class="sect3">
+<h4 id="_nr_of_allocated_cpu_cores">Nr of allocated CPU cores</h4>
 <div class="paragraph">
 <p><code>4</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_operating_system_version">Operating system version</h6>
+<div class="sect3">
+<h4 id="_operating_system_version">Operating system version</h4>
 <div class="paragraph">
 <p><code>Microsoft Windows Server 2019 Standard Evaluation</code></p>
 </div>
 </div>
-<div class="sect5">
-<h6 id="_hardware_information">Hardware information</h6>
+<div class="sect3">
+<h4 id="_hardware_information">Hardware information</h4>
 <div class="paragraph">
 <p><code>Microsoft Corporation Virtual Machine</code></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_server_roles_installed">Server Roles installed</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><code>Active Directory Domain Services</code><br></p>
+</li>
+<li>
+<p><code>DNS Server</code><br></p>
+</li>
+<li>
+<p><code>File and Storage Services &#8594; File and iSCSI Services &#8594; File Server</code><br></p>
+</li>
+<li>
+<p><code>File and Storage Services &#8594; Storage Services</code><br></p>
+</li>
+<li>
+<p><code>Web Server (IIS)</code><br></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_active_directory_configurations">Active Directory Configurations</h4>
+<div class="sect4">
+<h5 id="_root_domain_name">Root domain name</h5>
+<div class="paragraph">
+<p><code>fyllingsdalenungdomsklubb.no</code></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_forest_functional_level">Forest functional level</h5>
+<div class="paragraph">
+<p><code>Windows Server 2016</code></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_netbios_domain_name">NetBIOS domain name</h5>
+<div class="paragraph">
+<p><code>FYLLINGSDALENUN</code></p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_paths">Paths</h5>
+<div class="sect5">
+<h6 id="_database_folder">Database folder</h6>
+<div class="paragraph">
+<p><code>C:\Windows\NTDS</code></p>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_log_files_folder">Log files folder</h6>
+<div class="paragraph">
+<p><code>C:\Windows\NTDS</code></p>
+</div>
+</div>
+<div class="sect5">
+<h6 id="_sysvol_folder">SYSVOL folder</h6>
+<div class="paragraph">
+<p><code>C:\Windows\SYSVOL</code></p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -556,7 +622,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-03-17 15:40:50 +0100
+Last updated 2019-03-17 16:03:49 +0100
 </div>
 </div>
 </body>
