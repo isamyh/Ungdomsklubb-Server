@@ -91,6 +91,32 @@ Husket å drikke vann, samhandlet med medelever.
 
 '''
 
+=== Konfigurasjon av Active Directory Domain Services
+`12.02.2019`
+
+Root domain name `fyllingsdalenungdomsklubb.no`
+
+Forest functional level `Windows Server 2016`
+
+NetBIOS domain name `FYLLINGSDALENUN`
+
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+Serveren måtte ha restart for at det skulle tre inn
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
 == Mal
 Dato
 
