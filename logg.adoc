@@ -25,6 +25,8 @@ Husket å drikke vann, samhandlet med medelever.
 === Skiftelse av IPv4 adresse
 `11.02.2019`
 
+* Adressen ble skiftet til `10.0.0.1` og Subnet mask: `255.0.0.0`
+
 * [*] *Ble planen fulgt?*
 
 * [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
