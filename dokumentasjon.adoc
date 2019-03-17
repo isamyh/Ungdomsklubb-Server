@@ -38,16 +38,12 @@ Dokumentasjon av ungdomsklubbserver
 
 `Microsoft Corporation Virtual Machine`
 
-===== Server Roles installed
+====== Server Roles installed
 
 `Active Directory Domain Services`
-
 `DNS Server`
-
 `File and Storage Services -> File and iSCSI Services -> File Server`
-
 `File and Storage Services -> Storage Services`
-
 `Web Server (IIS)`
 
 == Brukere 
