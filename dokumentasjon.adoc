@@ -6,35 +6,35 @@ Dokumentasjon av ungdomsklubbserver
 
 `10.0.0.1`
 
-Subnet mask 
+====== Subnet mask 
 
 `255.0.0.0`
 
-Default gateway
+====== Default gateway
 
 `10.0.0.1`
 
-Servernavn 
+====== Servernavn 
 
 `UngdomsklubbServer`
 
-Processors 
+====== Processors 
 
 `Intel Core i7-4800MQ CPU @ 2.70GHz`
 
-Installed memory (RAM)
+====== Installed memory (RAM)
 
 `2048 MB Dynamic`
 
-Nr of allocated CPU cores 
+====== Nr of allocated CPU cores 
 
 `4`
 
-Operating system version
+====== Operating system version
 
 `Microsoft Windows Server 2019 Standard Evaluation`
 
-Hardware information 
+====== Hardware information 
 
 `Microsoft Corporation Virtual Machine`
 
