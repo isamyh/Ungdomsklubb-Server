@@ -1,4 +1,4 @@
-= Logg
+= Logg / Tidslinje
 Hva som er gjort på Ungdomsklubb Server
 
 Her finner du en systematisk oversikt over hva som er gjort på Ungdomsklubb Servere'n, med dato nedover. 
