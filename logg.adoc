@@ -6,7 +6,7 @@ Relevant informasjon, som kan være nyttig for andre å se. For å løse uvented
 
 '''
 
-=== Opprettelse av Windows Server 2019
+=== Opprettelse av Windows Server 2019 (HYPER-V)
 `10.02.2019`
 
 * [*] *Ble planen fulgt?*
@@ -145,6 +145,25 @@ User logon name (pre- Windows 2000): `FYLLINGSDALENUN\isamyh`
 Husket å drikke vann, samhandlet med medelever. 
 
 '''
+=== Opprettelse av Windows 10 DEV environment (HYPER-V)
+`12.02.2019`
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
 
 == Mal
 Dato
