@@ -44,9 +44,11 @@ Husket å drikke vann, samhandlet med medelever.
 '''
 
 === Skiftelse av Server navn / PC navn
-`12.2.2019`
+`12.02.2019`
 
 Navn ble skiftet til `UngdomsklubbServer`
+
+Beskrivelse ble skiftet til `A server for Ungdomskluben in Fyllingsdalen`
 
 * [*] *Ble planen fulgt?*
 
