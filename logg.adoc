@@ -66,6 +66,31 @@ Husket å drikke vann, samhandlet med medelever.
 
 '''
 
+=== Installasjon av Server Roller
+`12.02.2019`
+
+`Active Directory Domain Services` +
+`DNS Server` +
+`File and Storage Services -> File and iSCSI Services -> File Server` +
+`File and Storage Services -> Storage Services` +
+`Web Server (IIS)` +
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+Serveren måtte ha restart for at det skulle tre inn
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
 == Mal
 Dato
 
