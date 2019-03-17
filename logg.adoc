@@ -25,7 +25,7 @@ Husket å drikke vann, samhandlet med medelever.
 === Skiftelse av IPv4 adresse
 `11.02.2019`
 
-* Adressen ble skiftet til `10.0.0.1` og Subnet mask: `255.0.0.0`
+Adressen ble skiftet til `10.0.0.1` og Subnet mask: `255.0.0.0` 
 
 * [*] *Ble planen fulgt?*
 
@@ -45,7 +45,7 @@ Husket å drikke vann, samhandlet med medelever.
 === Skiftelse av Server navn / PC navn
 `12.2.2019`
 
-* Navn ble skiftet til `UngdomsklubbServer`
+Navn ble skiftet til `UngdomsklubbServer`
 
 * [*] *Ble planen fulgt?*
 
