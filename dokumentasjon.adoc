@@ -45,6 +45,7 @@ Dokumentasjon av ungdomsklubbserver
 * `File and Storage Services -> File and iSCSI Services -> File Server` +
 * `File and Storage Services -> Storage Services` +
 * `Web Server (IIS)` +
+* `Hei joakim`
 
 ==== Active Directory Configurations
 
