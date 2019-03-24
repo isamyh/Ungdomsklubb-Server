@@ -164,6 +164,27 @@ Husket å drikke vann, samhandlet med medelever.
 
 '''
 
+=== Opprettelse av virtuell switch (HYPER-V)
+`14.02.2019`
+
+Switch name: `Domain Ungdomsklubb Network Switch`
+Connection type: `Internal network`
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
 
 == Mal
 Dato

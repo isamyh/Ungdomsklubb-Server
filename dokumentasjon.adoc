@@ -2,17 +2,24 @@
 Dokumentasjon av ungdomsklubbserver
 
 == Server informasjon 
-==== Static Server IPv4
+
+==== Nettverk informasjon
+===== Static Server IPv4
 
 `10.0.0.1`
 
-==== Subnet mask 
+===== Subnet mask 
 
 `255.0.0.0`
 
-==== Default gateway
+===== Default gateway
 
 `10.0.0.1`
+
+===== Virtual Switch 
+
+Switch name: `Domain Ungdomsklubb Network Switch`
+Connection type: `Internal network`
 
 ==== Servernavn 
 
@@ -80,6 +87,8 @@ Brukernavn: `Administrator`
 Passord: `Kake1234`
 
 Tilganger: `root` 
+
+
 
 == Grupper
 Administrator
