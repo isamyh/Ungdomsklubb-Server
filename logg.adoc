@@ -187,6 +187,68 @@ Husket å drikke vann, samhandlet med medelever.
 
 '''
 
+=== Melde inn Windows 10 Dev i domene
+`14.02.2019`
+
+Klient fikk statisk ip: `10.0.0.2`
+
+Klient default gateway ble satt til: `10.0.0.1`
+
+Server default gateway satt til `10.0.0.1`
+
+Klient subnet mask satt til: `255.255.255.0`
+
+Server subnet mask satt til: `255.255.255.0`
+
+* [] *Ble planen fulgt?*
+
+** [*] Om du ikke fulgte planen? 
+
+*** [*] Hvorfor ikke? 
+Fikk ett problem når jeg skulle melde inn klienten i domene. Den ville ikke kontakte serveren gjennom det interne nettverkskortet.
+
+*** [*] Hva forandret du på? 
+Løsningen var å gi klienten en statisk IPv4 adresse, og standard gateway til serverens statiske ip. 
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
+=== Opprettelse av test bruker
+`15.02.2019`
+
+Firstname: `Bjørnstjerne` +
+Last name: `Bjørnson` +
+Full name: `Bjørnstjerne Bjørnson`` +
+User logon name: `bjøbjø@fyllingsdalenungdomsklubb.no` +
+User logon name (pre- Windows 2000): `FYLLINGSDALENUN\bjøbjø` +
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
 == Mal
 Dato
 
