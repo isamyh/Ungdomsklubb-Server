@@ -19,6 +19,7 @@ Dokumentasjon av ungdomsklubbserver
 ===== Virtual Switch 
 
 Switch name: `Domain Ungdomsklubb Network Switch`
+
 Connection type: `Internal network`
 
 ==== Servernavn 

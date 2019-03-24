@@ -168,6 +168,7 @@ Husket å drikke vann, samhandlet med medelever.
 `14.02.2019`
 
 Switch name: `Domain Ungdomsklubb Network Switch`
+
 Connection type: `Internal network`
 
 * [*] *Ble planen fulgt?*
