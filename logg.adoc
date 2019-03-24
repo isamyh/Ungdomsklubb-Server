@@ -200,7 +200,7 @@ Klient subnet mask satt til: `255.255.255.0`
 
 Server subnet mask satt til: `255.255.255.0`
 
-* [] *Ble planen fulgt?*
+* [ ] *Ble planen fulgt?*
 
 ** [*] Om du ikke fulgte planen? 
 
