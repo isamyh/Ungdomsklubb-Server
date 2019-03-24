@@ -448,6 +448,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_oprettelse_av_første_nye_bruker_i_ad">Oprettelse av første nye bruker i AD</a></li>
 <li><a href="#_opprettelse_av_windows_10_dev_environment_hyper_v">Opprettelse av Windows 10 DEV environment (HYPER-V)</a></li>
 <li><a href="#_opprettelse_av_virtuell_switch_hyper_v">Opprettelse av virtuell switch (HYPER-V)</a></li>
+<li><a href="#_melde_inn_windows_10_dev_i_domene">Melde inn Windows 10 Dev i domene</a></li>
+<li><a href="#_opprettelse_av_test_bruker">Opprettelse av test bruker</a></li>
 <li><a href="#_mal">Mal</a></li>
 </ul>
 </div>
@@ -765,6 +767,107 @@ User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\isamyh</code><br></p>
 </div>
 <hr>
 </div>
+<div class="sect2">
+<h3 id="_melde_inn_windows_10_dev_i_domene">Melde inn Windows 10 Dev i domene</h3>
+<div class="paragraph">
+<p><code>14.02.2019</code></p>
+</div>
+<div class="paragraph">
+<p>Klient fikk statisk ip: <code>10.0.0.2</code></p>
+</div>
+<div class="paragraph">
+<p>Klient default gateway ble satt til: <code>10.0.0.1</code></p>
+</div>
+<div class="paragraph">
+<p>Server default gateway satt til <code>10.0.0.1</code></p>
+</div>
+<div class="paragraph">
+<p>Klient subnet mask satt til: <code>255.255.255.0</code></p>
+</div>
+<div class="paragraph">
+<p>Server subnet mask satt til: <code>255.255.255.0</code></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>[] <strong>Ble planen fulgt?</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; Om du ikke fulgte planen?</p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; Hvorfor ikke?
+Fikk ett problem når jeg skulle melde inn klienten i domene. Den ville ikke kontakte serveren gjennom det interne nettverkskortet.</p>
+</li>
+<li>
+<p>&#10003; Hva forandret du på?
+Løsningen var å gi klienten en statisk IPv4 adresse, og standard gateway til serverens statiske ip.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_opprettelse_av_test_bruker">Opprettelse av test bruker</h3>
+<div class="paragraph">
+<p><code>15.02.2019</code></p>
+</div>
+<div class="paragraph">
+<p>Firstname: <code>Bjørnstjerne</code><br>
+Last name: <code>Bjørnson</code><br>
+Full name: <code>Bjørnstjerne Bjørnson</code><br>
+User logon name: <code>bjøbjø@fyllingsdalenungdomsklubb.no</code><br>
+User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\bjøbjø</code><br></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Ble planen fulgt?</strong></p>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
 <div class="sect1">
 <h2 id="_mal">Mal</h2>
 <div class="sectionbody">
@@ -833,7 +936,7 @@ User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\isamyh</code><br></p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-03-24 11:14:00 +0100
+Last updated 2019-03-24 16:53:27 +0100
 </div>
 </div>
 </body>
