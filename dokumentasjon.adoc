@@ -104,9 +104,9 @@ Administrator
 
 == GPO (Group Policy)
 
-Domains/OU::
-fyllingsdalenungdomsklubb.no::
 User restrictions::
+En GPO innenfor OU fyllingsdalenungdomsklubb.no, med følgende konfigurasjoner
+
 * User configuration > Policies > Administrative Templates > Desktop > Desktop > Disable all items [x]
 
 
