@@ -315,7 +315,7 @@ Administrators Allow `FULL ACCESS` +
 
 Everyone Deny `FULL ACCESS`
 
-Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer
+Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer`
 
 Local location: `C:\Shares\WebServer`
 
@@ -335,6 +335,38 @@ Husket å drikke vann, samhandlet med medelever.
 
 '''
 
+=== Installerte Microsoft Web Platform Installer
+`20.02.2019`
+
+Ett program fra Microsoft som er en katalog av andre Web tillegg.
+Her skal jeg da legge til ett program som gjør at PHP er mulig leslig for webserveren, siden nettsiden til ungdomsklubben er allerede skrevet i PHP.
+
+Program navn: `Microsoft Web Platform Installer`
+
+Web tilegg installert
+
+* Windows Cache Extension 2.0 (x86) for PHP 7.2
+
+* PHP 7.2.14 (x86)
+
+* PHP Manager for IIS
+
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
 == Mal
 Dato
 
