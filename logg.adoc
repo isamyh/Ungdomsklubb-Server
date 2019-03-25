@@ -249,6 +249,56 @@ Husket å drikke vann, samhandlet med medelever.
 
 '''
 
+=== Opprettelse av GPO User restrictions
+`20.02.2019`
+
+Navn på GPO: `User restrictions`
+Konfigurasjoner::
+* User configuration > Policies > Administrative Templates > Desktop > Desktop > Disable all items [*]
+* User configuration > Policies > Administrative Templates > Desktop > Hide and disable all items on the desktop [*]
+* User configuration > Policies > Administrative Templates > System > Prevent access to the command prompt [*]
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
+=== Opprettelse av GPO Misc
+`20.02.2019`
+
+Navn på GPO: `Misc`
+Konfigurasjoner::
+* User configuration > Policies > Administrative Templates > Windows Components > Internet Explorer > Disable changing home page settings [*] 
+
+** Home page set to: `localhost`
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
 == Mal
 Dato
 

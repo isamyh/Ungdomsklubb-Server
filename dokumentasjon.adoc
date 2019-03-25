@@ -107,9 +107,16 @@ Administrator
 User restrictions::
 En GPO innenfor OU fyllingsdalenungdomsklubb.no, med følgende konfigurasjoner
 
-* User configuration > Policies > Administrative Templates > Desktop > Desktop > Disable all items [x]
+* User configuration > Policies > Administrative Templates > Desktop > Desktop > Disable all items [*]
+* User configuration > Policies > Administrative Templates > Desktop > Hide and disable all items on the desktop [*]
+* User configuration > Policies > Administrative Templates > System > Prevent access to the command prompt [*]
 
+Misc::
+En GPO innenfor OU fyllingsdalenungdomsklubb.no, med følgende konfigurasjoner
 
+* User configuration > Policies > Administrative Templates > Windows Components > Internet Explorer > Disable changing home page settings [*] +
+
+** Home page set to: `localhost`
 
 
 
