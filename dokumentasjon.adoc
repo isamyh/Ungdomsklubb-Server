@@ -104,5 +104,12 @@ Administrator
 
 == GPO (Group Policy)
 
+Domains/OU::
+fyllingsdalenungdomsklubb.no::
+User restrictions::
+* User configuration > Policies > Administrative Templates > Desktop > Desktop > Disable all items [x]
+
+
+
 
 
