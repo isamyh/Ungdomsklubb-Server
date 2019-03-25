@@ -109,7 +109,7 @@ Navn på Mappe: `WebServer`
 Permissions entries::
 Administrators Allow `FULL ACCESS` +
 
-Everyone Deny `FULL ACCESS`
+Users Deny `FULL ACCESS`
 
 Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer
 
