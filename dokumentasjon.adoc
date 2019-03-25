@@ -81,7 +81,7 @@ Connection type: `Internal network`
 ====== SYSVOL folder +
 `C:\Windows\SYSVOL`
 
-== Brukere::
+Brukere::
 
 Brukernavn: `Administrator`
 
@@ -91,7 +91,7 @@ Tilganger: `root`
 
 == Klient informasjon
 
-=== Statisk IP::
+Statisk IP::
 `10.0.0.2`
 
 == Grupper
