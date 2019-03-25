@@ -95,7 +95,6 @@ Passord: `Kake1234`
 
 Tilganger: `root` 
 
-
 == Grupper
 Administrator
 
@@ -104,3 +103,6 @@ Administrator
 == Type deling
 
 == GPO (Group Policy)
+
+
+
