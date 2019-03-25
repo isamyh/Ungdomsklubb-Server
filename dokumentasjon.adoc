@@ -96,9 +96,24 @@ Passord: `Kake1234`
 Tilganger: `root` 
 
 == Grupper
+
 Administrator
 
 == Delte mapper
+
+
+=== WebServer
+
+Navn på Mappe: `WebServer`
+
+Permissions entries::
+Administrators Allow `FULL ACCESS` +
+
+Everyone Deny `FULL ACCESS`
+
+Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer
+
+Local location: `C:\Shares\WebServer`
 
 == Type deling
 
@@ -126,7 +141,7 @@ En GPO innenfor OU fyllingsdalenungdomsklubb.no, med følgende konfigurasjoner
 
 ** State: `Enabled` +
 
-** Home page set to: `localhost`
+** Home page set to: `fyllingsdalenungdomsklubb.no`
 
 
 

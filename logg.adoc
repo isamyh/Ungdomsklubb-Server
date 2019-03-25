@@ -253,6 +253,7 @@ Husket å drikke vann, samhandlet med medelever.
 `20.02.2019`
 
 Navn på GPO: `User restrictions`
+
 Konfigurasjoner
 
 * User configuration > Policies > Administrative Templates > Desktop > Desktop > Disable all items `ENABLED`
@@ -286,7 +287,37 @@ Konfigurasjoner
 
 * User configuration > Policies > Administrative Templates > Windows Components > Internet Explorer > Disable changing home page settings `ENABLED`
 
-** Home page set to: `localhost`
+** Home page set to: `fyllingsdalenungdomsklubb.no`
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. 
+
+'''
+
+=== Opprettelse av Webserver Shared directory
+`20.02.2019`
+
+Navn på Mappe: `WebServer`
+
+Permissions entries::
+Administrators Allow `FULL ACCESS` +
+
+Everyone Deny `FULL ACCESS`
+
+Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer
+
+Local location: `C:\Shares\WebServer`
 
 * [*] *Ble planen fulgt?*
 
