@@ -452,6 +452,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_opprettelse_av_test_bruker">Opprettelse av test bruker</a></li>
 <li><a href="#_opprettelse_av_gpo_user_restrictions">Opprettelse av GPO User restrictions</a></li>
 <li><a href="#_opprettelse_av_gpo_misc">Opprettelse av GPO Misc</a></li>
+<li><a href="#_opprettelse_av_webserver_shared_directory">Opprettelse av Webserver Shared directory</a></li>
 <li><a href="#_mal">Mal</a></li>
 </ul>
 </div>
@@ -876,8 +877,10 @@ User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\bjøbjø</code><br></
 <p><code>20.02.2019</code></p>
 </div>
 <div class="paragraph">
-<p>Navn på GPO: <code>User restrictions</code>
-Konfigurasjoner</p>
+<p>Navn på GPO: <code>User restrictions</code></p>
+</div>
+<div class="paragraph">
+<p>Konfigurasjoner</p>
 </div>
 <div class="ulist checklist">
 <ul class="checklist">
@@ -931,11 +934,61 @@ Konfigurasjoner</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Home page set to: <code>localhost</code></p>
+<p>Home page set to: <code>fyllingsdalenungdomsklubb.no</code></p>
 </li>
 </ul>
 </div>
 </li>
+<li>
+<p>&#10003; <strong>Ble planen fulgt?</strong></p>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_opprettelse_av_webserver_shared_directory">Opprettelse av Webserver Shared directory</h3>
+<div class="paragraph">
+<p><code>20.02.2019</code></p>
+</div>
+<div class="paragraph">
+<p>Navn på Mappe: <code>WebServer</code></p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Permissions entries</dt>
+<dd>
+<p>Administrators Allow <code>FULL ACCESS</code><br></p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Everyone Deny <code>FULL ACCESS</code></p>
+</div>
+<div class="paragraph">
+<p>Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer</p>
+</div>
+<div class="paragraph">
+<p>Local location: <code>C:\Shares\WebServer</code></p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
 <li>
 <p>&#10003; <strong>Ble planen fulgt?</strong></p>
 </li>
@@ -1027,7 +1080,7 @@ Konfigurasjoner</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-03-25 15:40:29 +0100
+Last updated 2019-03-25 15:56:36 +0100
 </div>
 </div>
 </body>
