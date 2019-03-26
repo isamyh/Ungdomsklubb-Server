@@ -341,7 +341,7 @@ Husket å drikke vann, samhandlet med medelever.
 Ett program fra Microsoft som er en katalog av andre Web tillegg.
 Her skal jeg da legge til ett program som gjør at PHP er mulig leslig for webserveren, siden nettsiden til ungdomsklubben er allerede skrevet i PHP.
 
-Program navn: `Microsoft Web Platform Installer`
+Program navn: `Web Platform Installer 5.1`
 
 Web tilegg installert
 
