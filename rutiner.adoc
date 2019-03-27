@@ -1,0 +1,59 @@
+# Rutine
+
+Her finner du en oversikt over alle rutinene som har forbindelse med Ungdomsklubb-Server
+
+## Ny bruker
+
+Her er rutinen for hvordan du skal lage en ny vanlig bruker. +
+Dersom du følger denne rutinen, vil brukeren få følgende GPO: "Misc", "User Restrictions" +
+Se dokumentasjon, for å finne ut hva GPO'ene gjør. 
+
+### 1. Users and computers
+
+Først må du ha Server Manager åpen, også følger du bildet under. +
+Ved å klikke på "Tools > Users and computers"
+
+image::https://i.gyazo.com/00562192494198b782159fcf40c57951.png[]
+
+### 2. Creating a new user / New object - User
+image::https://i.gyazo.com/6ee47d18c6003a0124e853bf03c5e66d.png[]
+
+### 3. Fylle informasjon - New object - User
+
+Her fyller du inn First name, og last name. 
+
+Eksempel navn: Joakim Midttveit +
+First name: Joakim +
+Last Name: Midttveit +
+Full name: Joakim Midttveit (Kommer automatisk) +
+
+Brukernavn: joamid (Tre første i first name, og tre første i last name.)
+
+image::https://i.gyazo.com/af69a19b8fd6b8e3c46ea23a04327e93.png[]
+
+### 4. Det vil se slik ut
+
+Trykk så videre på next
+
+image::https://i.gyazo.com/458adeae9929c60c33c2944de9fbd716.png[]
+
+### 5. Sett et passord
+
+Her bruker du passordet "Kake1234"
+
+Og haker av "User must change password at next logon"
+
+Det skal se slik ut:
+
+image::https://i.gyazo.com/e106be077b9460780c9411a41cd0ad88.png[]
+
+### 6. Ferdig
+
+Derreter trykker du "Next" og "Finish"
+
+Det skal se slik ut på siste siden: 
+ 
+image::https://i.gyazo.com/ead5a406a8d8b670e453d76024a4c89f.png[]
+
+
+
