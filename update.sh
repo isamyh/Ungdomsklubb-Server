@@ -7,6 +7,9 @@ asciidoctor -r asciidoctor-pdf -b pdf -a toc dokumentasjon.adoc
 echo "Updating logg.adoc"
 asciidoctor -a toc logg.adoc
 asciidoctor -r asciidoctor-pdf -b pdf -a toc logg.adoc
+echo "Updating rutiner.adoc"
+asciidoctor -a toc rutiner.adoc
+asciidoctor -r asciidoctor-pdf -b pdf -a toc rutiner.adoc
 echo "Commiting changes"
 git add *
 git commit -m "Documentation update"
