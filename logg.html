@@ -453,6 +453,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_opprettelse_av_gpo_user_restrictions">Opprettelse av GPO User restrictions</a></li>
 <li><a href="#_opprettelse_av_gpo_misc">Opprettelse av GPO Misc</a></li>
 <li><a href="#_opprettelse_av_webserver_shared_directory">Opprettelse av Webserver Shared directory</a></li>
+<li><a href="#_installerte_microsoft_web_platform_installer">Installerte Microsoft Web Platform Installer</a></li>
+<li><a href="#_overførte_filer_til_webserver">Overførte filer til WebServer</a></li>
 <li><a href="#_mal">Mal</a></li>
 </ul>
 </div>
@@ -982,7 +984,7 @@ User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\bjøbjø</code><br></
 <p>Everyone Deny <code>FULL ACCESS</code></p>
 </div>
 <div class="paragraph">
-<p>Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer</p>
+<p>Network location share: <code>\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer</code></p>
 </div>
 <div class="paragraph">
 <p>Local location: <code>C:\Shares\WebServer</code></p>
@@ -1006,6 +1008,92 @@ User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\bjøbjø</code><br></
 <p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
 <div class="paragraph">
 <p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_installerte_microsoft_web_platform_installer">Installerte Microsoft Web Platform Installer</h3>
+<div class="paragraph">
+<p><code>20.02.2019</code></p>
+</div>
+<div class="paragraph">
+<p>Ett program fra Microsoft som er en katalog av andre Web tillegg.
+Her skal jeg da legge til ett program som gjør at PHP er mulig leslig for webserveren, siden nettsiden til ungdomsklubben er allerede skrevet i PHP.</p>
+</div>
+<div class="paragraph">
+<p>Program navn: <code>Web Platform Installer 5.1</code></p>
+</div>
+<div class="paragraph">
+<p>Web tilegg installert</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>Windows Cache Extension 2.0 (x86) for PHP 7.2</p>
+</li>
+<li>
+<p>PHP 7.2.14 (x86)</p>
+</li>
+<li>
+<p>PHP Manager for IIS</p>
+</li>
+<li>
+<p>&#10003; <strong>Ble planen fulgt?</strong></p>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10063; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+<div class="paragraph">
+<p>Se logg under denne.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever.</p>
+</div>
+</li>
+</ul>
+</div>
+<hr>
+</div>
+<div class="sect2">
+<h3 id="_overførte_filer_til_webserver">Overførte filer til WebServer</h3>
+<div class="paragraph">
+<p><code>22.02.2019</code></p>
+</div>
+<div class="paragraph">
+<p>Overførte WEB siden, omgjort til en non-php versjon, siden PHP ikke blir støttet av Wndows Server. Her skøt jeg meg selv i foten.
+Derfor var forrige prosess <code>Installerte Microsoft Web Platform Installer</code> unødvendig.</p>
+</div>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Ble planen fulgt?</strong></p>
+</li>
+<li>
+<p>&#10003; <strong>Kontrollmetoder samt funksjonsprøving, eventuelt feilretting</strong></p>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p>&#10003; <strong>Har du testet at alt virker - og hvordan testet du?</strong></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>&#10003; <strong>Gjennomførte HMS - tiltak underveis</strong></p>
+<div class="paragraph">
+<p>Husket å drikke vann, samhandlet med medelever. Pauser ble også gjennomført.</p>
 </div>
 </li>
 </ul>
@@ -1080,7 +1168,7 @@ User logon name (pre- Windows 2000): <code>FYLLINGSDALENUN\bjøbjø</code><br></
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-03-25 15:56:36 +0100
+Last updated 2019-03-27 19:27:08 +0100
 </div>
 </div>
 </body>
