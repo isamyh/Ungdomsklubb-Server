@@ -99,6 +99,10 @@ Tilganger: `root`
 
 Administrator
 
+Bruker
+
+
+
 == Delte mapper
 
 
@@ -111,7 +115,7 @@ Administrators Allow `FULL ACCESS` +
 
 Users Deny `FULL ACCESS`
 
-Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer
+Network location share: `\\UngdomsklubbServer.fyllingsdalenungdomsklubb.no\\WebServer`
 
 Local location: `C:\Shares\WebServer`
 
