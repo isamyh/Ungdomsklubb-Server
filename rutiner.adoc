@@ -2,6 +2,10 @@
 
 Her finner du en oversikt over alle rutinene som har forbindelse med Ungdomsklubb-Server
 
+## Prosessflytdiagram ny bruker
+
+image::https://i.gyazo.com/abebb1f24c008e602f0ac28bdd516592.png[]
+
 ## Ny bruker
 
 Her er rutinen for hvordan du skal lage en ny vanlig bruker. +
@@ -54,6 +58,7 @@ Derreter trykker du "Next" og "Finish"
 Det skal se slik ut på siste siden: 
  
 image::https://i.gyazo.com/ead5a406a8d8b670e453d76024a4c89f.png[]
+
 
 
 
