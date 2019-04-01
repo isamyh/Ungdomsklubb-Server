@@ -105,6 +105,22 @@ Bruker
 
 == Delte mapper
 
+=== Userfolders
+
+Share name: `Userfolders`
+
+Remote path to share: `\\UngdomsklubbSer\Userfolders`
+
+Access-based enumeration: `Enabled`
+
+Permission entries: +
+Everyone: `Deny` + 
+Acccess: `Full Control`
+
+Users: `Allow` +
+Access: `Change`
+
+Quota: `1GB Limit`
 
 === WebServer
 

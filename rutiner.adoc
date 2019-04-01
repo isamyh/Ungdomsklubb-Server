@@ -59,6 +59,42 @@ Det skal se slik ut på siste siden:
  
 image::https://i.gyazo.com/ead5a406a8d8b670e453d76024a4c89f.png[]
 
+## Rutine for å sette kvote på mappe
 
+Følger du denne rutinen, vil du ha en mappe, som har restriksjon på 1 GB Hard
+
+1. Åpne `Server Manager`
+
+2. Trykk på `File and Storage Services`
+
+3. I kolonnen trykker du på `Shares`
+
+4. Lag en ny share
+
+5. Select profile +
+Her velger du `SMB Share - Advanced`
+
+6. Share location +
+Her velger du `Type a custom path:` +
+Og skriver inn der: `C:\Usersfolders`
+
+7. Trykk next
+
+8. Enable access-based enumeration
+
+9. Trykk på customize permissions..
+
+10. Trykk på kolonnen Share
+
+11. Gjør om everyone permission til `Deny`
+
+12. Add en ny permission, og gi Users tilgang til `Change` Type `Allow`
+
+13. PÅ management properties velger du alle.
+
+14. Quota: `Apply a quota based on the template:` +
+Velg 1 GB Limit
+
+15. Finito finale!
 
 

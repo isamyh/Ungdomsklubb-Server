@@ -389,6 +389,43 @@ Derfor var forrige prosess `Installerte Microsoft Web Platform Installer` unødv
 Husket å drikke vann, samhandlet med medelever. Pauser ble også gjennomført. 
 
 '''
+
+
+=== Opprettelse av new share
+`22.02.2019`
+
+Share name: `Userfolders`
+
+Remote path to share: `\\UngdomsklubbSer\Userfolders`
+
+Access-based enumeration: `Enabled`
+
+Permission entries: +
+Everyone: `Deny` + 
+Acccess: `Full Control`
+
+Users: `Allow` +
+Access: `Change`
+
+Quota: `1GB Limit`
+
+
+
+* [*] *Ble planen fulgt?*
+
+* [*] *Kontrollmetoder samt funksjonsprøving, eventuelt feilretting*
++
+
+
+** [*] *Har du testet at alt virker - og hvordan testet du?*
++
+
+
+* [*] *Gjennomførte HMS - tiltak underveis*
++
+Husket å drikke vann, samhandlet med medelever. Pauser ble også gjennomført. 
+
+'''
 == Mal
 Dato
 
