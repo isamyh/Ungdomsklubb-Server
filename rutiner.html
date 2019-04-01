@@ -447,6 +447,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_6_ferdig">6. Ferdig</a></li>
 </ul>
 </li>
+<li><a href="#_rutine_for_å_sette_kvote_på_mappe">Rutine for å sette kvote på mappe</a></li>
 </ul>
 </div>
 </div>
@@ -560,10 +561,71 @@ Full name: Joakim Midttveit (Kommer automatisk)<br></p>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_rutine_for_å_sette_kvote_på_mappe">Rutine for å sette kvote på mappe</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Følger du denne rutinen, vil du ha en mappe, som har restriksjon på 1 GB Hard</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Åpne <code>Server Manager</code></p>
+</li>
+<li>
+<p>Trykk på <code>File and Storage Services</code></p>
+</li>
+<li>
+<p>I kolonnen trykker du på <code>Shares</code></p>
+</li>
+<li>
+<p>Lag en ny share</p>
+</li>
+<li>
+<p>Select profile<br>
+Her velger du <code>SMB Share - Advanced</code></p>
+</li>
+<li>
+<p>Share location<br>
+Her velger du <code>Type a custom path:</code><br>
+Og skriver inn der: <code>C:\Usersfolders</code></p>
+</li>
+<li>
+<p>Trykk next</p>
+</li>
+<li>
+<p>Enable access-based enumeration</p>
+</li>
+<li>
+<p>Trykk på customize permissions..</p>
+</li>
+<li>
+<p>Trykk på kolonnen Share</p>
+</li>
+<li>
+<p>Gjør om everyone permission til <code>Deny</code></p>
+</li>
+<li>
+<p>Add en ny permission, og gi Users tilgang til <code>Change</code> Type <code>Allow</code></p>
+</li>
+<li>
+<p>PÅ management properties velger du alle.</p>
+</li>
+<li>
+<p>Quota: <code>Apply a quota based on the template:</code><br>
+Velg 1 GB Limit</p>
+</li>
+<li>
+<p>Finito finale!</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-03-28 12:43:06 +0100
+Last updated 2019-04-01 10:30:22 +0200
 </div>
 </div>
 </body>
