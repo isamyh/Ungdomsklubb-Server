@@ -1,0 +1,87 @@
+# **Hva går oppgaven ut på?**
+Skriv 3- 5 setninger med egne ord om hva du skal sette opp og for hvem, samt kravene som er nevnt i oppgaveteksten.
+Jeg skal sette opp IT-Tjenester for en ungdomsklubb i Fyllingsdalen som Bergen Kommune skal drifte. Ungdomsklubben er rettet mot 13-20 år gamle individer, hvor det er 7 ansatte som skal drifte, der 2 er administrator på IT-systemet.
+350 000,- er satt av til investering i IT-systemer, hvor de er opptatt av at alle skal bruke samme server og katalogtjeneste. Det er også ett krav på hva hver ungdomsklubb skal ha:
+* 1 server
+* 8 datamaskiner
+* 3 svitsjer
+* 5 aksesspunkter
+* 2 prosjektorer
+* 1 nettverksskriver
+* Diverse annet utstyr
+
+# **Hva trenges av maskinvare og programvare (kost/nytte og budsjett)?**
+Her kan du først liste opp hva slags maskinvare og programvare som trengs for å løse oppgaven som er beskrevet i situasjonsbeskrivelsen
+Se kost/nytte skjema
+
+
+## **Så begrunner du hvorfor dine valg er de beste**
+Mine valg er best, fordi de gir den tilgjengeligheten, oppetiden og sikkerheten som skal til for en driftssikker ungdomsklubb.
+
+## **Oversikt over arbeidsoppgavene**
+Her lager du en kronologisk oversikt over hva du skal gjøre og setter opp tidsfrister. Dette kalles også milepæler:
+Trello
+https://trello.com/b/Cv5Ifu5F 
+ 
+# **Oversikt over system**
+## **IPADRESSER**
+### **8 statisk IPv4 Adresse til ruter, accesspunkt, server og skriver**
+* 10.0.0.1 - Server
+* 10.0.0.2 - Accesspunkt 1
+* 10.0.0.3 - Accesspunkt 2
+* 10.0.0.4 - Accesspunkt 3
+* 10.0.0.5 - Accesspunkt 4
+* 10.0.0.6 - Accesspunkt 5
+* 10.0.0.7 - Skriver
+* 10.0.0.8 - Ruter
+### **100 dynamiske IPv4 Adresser til datamaskiner, og gjester (10.0.0.10-10.0.0.110)**
+
+### **Maskinnavn**
+* LAPTOP-(1-8)
+* RUTER
+* ACCESSPUNKT-(1-4)
+* SERVER: KLUBBSERVER
+* SKRIVER
+
+## **Domenenavn**
+fyllingsdalenungdonmsklubb.no
+
+# **AD-Struktur**
+## **Grupper**
+* Administrator
+* Ansatt
+* Bruker
+ 
+## **Bruker oversikt**
+### **Navn**
+Fornavn(tre første bokstaver), etternavn (tre første bokstaver), tall(basert på om det er flere som heter det samme, isåfall inkrementer med en)
+Eks: Isamyh1
+
+
+### **Passordkrav**
+Minst 12 tegn, med bokstaver, tall, andre tegn
+
+
+### **Tilganger og rettigheter**
+* Administrator
+Full Access
+* Ansatt
+Tilgang til skriver og server
+* Bruker
+Tilgang til eventuelle tjenester, som ungdommen skal ha tilgang til.
+
+
+# Nettverks Skisse
+Se nettverks skisse
+
+
+
+# Budsjett
+Se budsjett
+
+
+# Hvordan vil du kvalitetssikre arbeidet og prosessen
+Dokumentere underveis, lære av feil. 
+
+ 
+
