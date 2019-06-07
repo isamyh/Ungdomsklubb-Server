@@ -59,6 +59,72 @@ Det skal se slik ut på siste siden:
  
 image::https://i.gyazo.com/ead5a406a8d8b670e453d76024a4c89f.png[]
 
+
+## Hvordan opprette GPO for slik at alle får standard nettside til alle brukerne i domenet. 
+
+### 1. Gå inn på Group policy management
+
+### 2. Lag en GPO tilknyttende domene
+Trykk på Create a new gpo and link it here.
+image::https://i.gyazo.com/b0fabafa62d44701425ac1cbab67c278.png[]
+
+### 3. Gi den ett navn og åpne
+Her kaller vi den Standardnettside
+Høyre klikk på GPOen du har laget og trykk "edit"
+
+
+### 4. Gå til lokasjonen
+User configuration > Policies > Administrative Templates > Windows Components > Internet Explorer > Disable changing home page settings
+Tips: Trykk på Internet Explorer og dobbelklikk på "Disable Changing home page settings"
+
+### 5. Rediger som på bilde
+image::https://i.gyazo.com/d6cf21bcfe1d77ed8f077af4eb738dec.png[]
+Sett til enabled og rediger ønsket hjemmeside
+Trykk apply og ok.
+
+### 6. Legg til brukere
+image::https://i.gyazo.com/30146f927c72002b32ae63e61114b27a.png[]
+Trykk på gpo og gå på delegation
+Legg til Users gruppen, gi de read access.
+
+## Rutine for å sette et dhcp scope
+
+### 1. Gå inn på network cards
+Høyre klikk på nettverkskortet ditt > Properties > Internet protocol version 4 ipv4
+Det skal se slik ut: 
+image::https://i.gyazo.com/59b9e99f542f6efee5d80af03e9eccad.png[]
+
+### 2. OK
+Trykk ok og ok
+
+
+## Backup med tidspunkt
+
+### 1. Søk etter windows server backup i søk
+
+### 2. Konfigurer backup schedule
+image::https://www.backup-utility.com/windows-server/images/schedule-automatic-backup-windows-server-2016-4125/select-backup-type.jpg[]
+
+### 3. Full server
+image::https://www.backup-utility.com/windows-server/images/schedule-automatic-backup-windows-server-2016-4125/sselect-backup-configuration.jpg[]
+
+### 4. Select time
+Once a day: 9PM
+
+### 5. Backup
+Velg backup to a harddisk
+
+### 6. velg disk
+Velg disken som er tilgjengelig
+Trykk ok og ok. Ferdig
+
+
+
+
+
+
+
+
 ## Rutine for å sette kvote på mappe
 
 Følger du denne rutinen, vil du ha en mappe, som har restriksjon på 1 GB Hard
