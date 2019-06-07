@@ -1,6 +1,6 @@
 # Rutine
 
-Her finner du en oversikt over alle rutinene som har forbindelse med Ungdomsklubb-Server
+Her finner du en oversikt over alle rutinene som har forbindelse med ABCompetanse
 
 ## Prosessflytdiagram ny bruker
 
